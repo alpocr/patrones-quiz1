@@ -1,0 +1,19 @@
+
+Universidad Latina
+Allan Porras
+alpocr@netsescr.com
+
+****************************************************
+
+Para éste proyecto he usado varios patrones:
+
+1- Decorador:   La escogencia de éste patrón fue muy predecible, ya que el
+                problema que planteaba Speedy Ramirez era que el cliente
+                pudiese "armar" sus propios platos de comida.
+                
+                He implementado éste patrón porque creo que es el que se ajusta
+                al caso, y máxime si 
+
+2- Singleton:  ** Voy a usar éste patrón para asegurar la cantidad de instancias
+                de MAQUINA que se vayan a crear. Speedy Ramirez necesita
+                asegurar la creación de una sola máquina para comida.
