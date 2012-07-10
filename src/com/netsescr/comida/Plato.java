@@ -12,7 +12,25 @@ package com.netsescr.comida;
  */
 public abstract class Plato {
 
-    public String descripcion = "nada";
+    private String descripcion = "nada";
 
+    /**
+     * 
+     * @return el precio correspondiente de cada plato
+     */
     public abstract double precio();
+
+    /**
+     * @return the descripcion
+     */
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    /**
+     * @param descripcion the descripcion to set
+     */
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 }
