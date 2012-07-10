@@ -8,6 +8,6 @@ package com.netsescr.clientes;
  *
  * @author alpocr
  */
-public class Cliente {
+public abstract class Cliente {
     
 }
