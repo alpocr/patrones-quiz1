@@ -8,6 +8,20 @@ package com.netsescr.comida;
  *
  * @author alpocr
  */
-public class Pepino {
+public class Pepino extends Ensalada{
+    
+    public Pepino(){
+        getDescripcion();
+    }
+
+    @Override
+    public String getDescripcion() {
+        return "Pepino";
+    }
+
+    @Override
+    public double precio() {
+        return 434;
+    }
     
 }
