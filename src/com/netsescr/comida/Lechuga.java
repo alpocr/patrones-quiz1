@@ -9,6 +9,10 @@ package com.netsescr.comida;
  * @author alpocr
  */
 public class Lechuga extends Ensalada{
+    
+    public Lechuga(){
+        getDescripcion();
+    }
 
     @Override
     public String getDescripcion() {

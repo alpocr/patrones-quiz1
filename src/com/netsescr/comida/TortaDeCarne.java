@@ -9,6 +9,10 @@ package com.netsescr.comida;
  * @author alpocr
  */
 public class TortaDeCarne extends Guarnicion{
+    
+    public TortaDeCarne(){
+        getDescripcion();
+    }
 
     @Override
     public String getDescripcion() {

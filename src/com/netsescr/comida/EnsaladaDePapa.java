@@ -9,6 +9,10 @@ package com.netsescr.comida;
  * @author alpocr
  */
 public class EnsaladaDePapa extends Ensalada{
+    
+    public EnsaladaDePapa(){
+        getDescripcion();
+    }
 
     @Override
     public String getDescripcion() {

@@ -9,6 +9,10 @@ package com.netsescr.comida;
  * @author alpocr
  */
 public class ArrozIntegral extends Elemento{
+    
+    public ArrozIntegral(){
+        getDescripcion();
+    }
 
     @Override
     public String getDescripcion() {

@@ -9,6 +9,10 @@ package com.netsescr.comida;
  * @author alpocr
  */
 public class Frijoles extends Elemento{
+    
+    public Frijoles(){
+        getDescripcion();
+    }
 
     @Override
     public String getDescripcion() {
